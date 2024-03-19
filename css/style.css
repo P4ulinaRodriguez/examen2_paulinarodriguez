@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+body{
+	background-color: #252525;
+	font-size: 14px;
+	font-family: "Catamaran";
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#ec3642;
+	--color-rojo:#ec3642;
+	--fondo-header:#212121;
+	--fondo-footer:#212121;
+	--color-footer:#ccc;
+}
+header{
+	background-color: var(--fondo-header);
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+}
+footer p{
+	margin-bottom: 5px;
+}
+footer span{
+	color: var(--color-rojo);
+}
+
+
+#hero-slides h2{
+	text-align: left;
+	font-size: 70px;
+	font-style:normal;
+	font-weight:700;
+}
+
+
+.boton2{
+	background-color:#ec3642;
+	color:#FFFFFF;
+	font-weight: 300;
+	border-radius: 0px;
+	padding-right: 350;
+	font-style: normal;
+}
+
+#intro .i-1{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color:#0000;
+	border-radius: 0px;
+}
+
+.cubo-intro{
+	background-color: var(--fondo-tarjetas);
+	margin:0 10px;
+	padding:5%;
+}
+
+
+.boton{
+	background-color: transparent;
+	color:#FFFFFF;
+	padding: 20px 20px;
+	font-weight: 600;
+	font-size: 25px;
+	border-radius: 25;
+	border: thin solid;
+	align-content: center;
+}
+
+#productos{
+	text-align: center;
+}
+#productos div{
+	padding-top: 20px;
+}
+
+#cta{
+	background-image:url("../img/bg-parallax.png");
+	padding: 150px 0;
+	color:#FFFFFF;
+}
+#cta h2{
+	padding-right: 150px;
+}
+.boton3{
+	background-color: transparent;
+	color:#FFFFFF;
+	padding: 10px 10px;
+	font-weight: 100;
+	font-size: 25px;
+	border-radius: 25;
+	border: thin solid;
+	align-content: center;
+}
+
+#productos .texto-producto{
+	background-color: #161616;
+	color:#fff;
+	text-size:25px;
+	width:auto;
+	
+}
+#productos p{
+	color:#ec3642;
+}
